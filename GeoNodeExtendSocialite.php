@@ -1,5 +1,5 @@
 <?php
-namespace TungTT\LaravelSocialiteGeoNode;
+namespace TungTT\LaravelSocialite\GeoNode;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
 

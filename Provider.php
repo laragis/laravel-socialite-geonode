@@ -1,5 +1,5 @@
 <?php
-namespace TungTT\LaravelSocialiteGeoNode;
+namespace TungTT\LaravelSocialite\GeoNode;
 
 use GuzzleHttp\RequestOptions;
 use SocialiteProviders\Manager\OAuth2\AbstractProvider;
