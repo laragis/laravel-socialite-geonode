@@ -1,4 +1,4 @@
-# Adobe
+# GeoNode
 ```bash
 composer require ttungbmt/laravel-socialite-geonode
 ```
