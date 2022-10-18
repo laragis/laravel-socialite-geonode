@@ -78,7 +78,7 @@ class Provider extends AbstractProvider
             'id'    => $user['user_id'],
             'nickname' => $user['username'],
             'name'  => $user['username'],
-            'email' => $user['email'],
+            'email' => $user['email'] ? $user['email'] : $user['username'].'@geonode.org',
         ]);
     }
 
