@@ -23,7 +23,7 @@ class Provider extends AbstractProvider
      */
     public function getHost()
     {
-        return $this->host ?? env('GEONODE_URL');
+        return $this->host ?? config('geonode.url');
     }
 
     /**
